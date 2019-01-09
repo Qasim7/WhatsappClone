@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_gravity="end"
+    android:layout_marginTop="4dp"
+    android:background="@color/outgoingChat"
+    android:maxWidth="300dp"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textview_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:gravity="end"
+        android:maxWidth="300dp"
+        android:text="abcadsadas  sad asd asd asd asda sasdasdasdasdasdasddasdas dasd assad asd asdd asd as"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/textview_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_message"
+        android:layout_alignEnd="@id/textview_message"
+        android:layout_alignRight="@id/textview_message"
+        android:gravity="end"
+        android:text="13:12"
+        android:textSize="11sp" />
+</RelativeLayout>
